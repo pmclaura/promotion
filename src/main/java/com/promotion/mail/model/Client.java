@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name="clients")
 public class Client {
     @Id
     @Column(nullable = false, unique = true)
@@ -87,4 +86,6 @@ public class Client {
     public void setDay(Integer day) {
         this.day = day;
     }
+
+    public Client(){}
 }

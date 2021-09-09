@@ -5,7 +5,6 @@ import com.promotion.mail.repository.ClientRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
 
 @Service
